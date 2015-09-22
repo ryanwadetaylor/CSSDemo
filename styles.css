@@ -24,30 +24,20 @@ button {
   Layouts
 *****************************************/
 
-.panel > div {		/*handles both inner divs*/
+.panel > div {		
 	width: 960px;
-	margin: 0 auto;	/* centers it*/
-	min-height: 32em;   /*adding height to inner div expands both */
+	margin: 0 auto;	
+	min-height: 32em;   
 }
 
 /******* Hero section *******/
 .hero {
-	/*background-color: blue;*/
-	/*margin-bottom: -10px;*/
 	color: white;
-	
-	/*background-color: blue;*/
-	/*background: radial-gradient(rgba(0, 143, 166, 0.5), rgb(0, 143, 166)), url("bg.jpg");*/
-	background: url("Bigstock_48119186Crop2.jpg");
-
+	background: radial-gradient(rgba(0, 143, 166, 0.5), rgb(0, 143, 166)), url("bg.jpg");
 	background-size: cover;
-	/*background-position: center center;*/
-
-
 }
 
 .hero > div {
-	/*background-color: yellow;*/
 	position: relative;
 }
 
@@ -64,22 +54,17 @@ button {
 }
 
 .primary-nav {
-	/*background-color: black;*/
 	text-align: center;
 	border-top: 2px solid rgba(255, 255, 255, .4);
 	border-bottom: 2px solid rgba(255, 255, 255, .4);
-	/*opacity: 0.4;*/
 }
 
 .primary-nav > a {
-	/*background-color: green;*/
 	display: inline-block;
 	padding: 10px;
 	margin: 0 10px;
 	text-decoration: none;
 	color: white;
-	/*opacity: 1.0;
-	filter: alpha(opacity=100);*/
 }
 
 .search-field {
@@ -100,7 +85,6 @@ button {
 	color: white;
 	border-radius: 0px;
 	font-size: 14px;
-	/*font-family: "Open Sans";*/
 	font-weight: normal;
 	padding: 4px;
 	border: 0;
@@ -109,9 +93,7 @@ button {
 .banner {
 	position: absolute;
 	bottom: 30px;
-	/*left: 40px;*/
 	text-align: center;
-	/*background-color: red;*/
 	width: 100%;
 }
 
@@ -136,13 +118,9 @@ button {
 }
 
 .service { 
-	/*float: left; */
 	display: inline-block;
 	width: 290px; 
-	/*margin-right: 66px;*/
 	background-color: white;
-	/*margin: -30px 66px auto 0*/
-	/*margin-top: -10px;*/
 	padding: 5px;
 	margin: -30px 10px 10px 10px;
 	box-shadow: 0 0 20px -5px black;
@@ -154,7 +132,6 @@ button {
 
 .litter-box {
 	border-top: 3px solid red;
-	/*margin: -30px 0 auto 0;*/
 }
 
 .food-box {
@@ -191,8 +168,6 @@ button {
 
 .primary-content > div {
 	background-color: white;
-	/*text-align: center;*/
-	/*margin-top: -10px;*/
 	margin-bottom: 10px;
 }
 
@@ -233,7 +208,6 @@ button {
 .primary-aside > div > p {
 	margin: 0;
 	background-color: #E7F3F9;
-	/*padding-left: 5px;*/
 	margin-left: 90px;
 }
 
@@ -265,7 +239,6 @@ button {
 
 .tiles-main .dog-name {
 	border-bottom: 1px solid black;
-	/*font-weight: bold;*/
 	background-color: #82D154;
 	margin-top: 0px;
 	padding-left: 5px;
