@@ -1,0 +1,273 @@
+/****************************************
+  Defaults
+*****************************************/
+
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+body {
+	margin: 0;
+}
+
+button {
+	border: 1px solid;
+	background-color: white;
+	border-radius: 5px;
+	padding: 5px;
+	font-weight: 600;
+ }
+
+
+/****************************************
+  Layouts
+*****************************************/
+
+.panel > div {		/*handles both inner divs*/
+	width: 960px;
+	margin: 0 auto;	/* centers it*/
+	min-height: 32em;   /*adding height to inner div expands both */
+}
+
+/******* Hero section *******/
+.hero {
+	/*background-color: blue;*/
+	/*margin-bottom: -10px;*/
+	color: white;
+	
+	/*background-color: blue;*/
+	/*background: radial-gradient(rgba(0, 143, 166, 0.5), rgb(0, 143, 166)), url("bg.jpg");*/
+	background: url("Bigstock_48119186Crop2.jpg");
+
+	background-size: cover;
+	/*background-position: center center;*/
+
+
+}
+
+.hero > div {
+	/*background-color: yellow;*/
+	position: relative;
+}
+
+.hero #logo {
+	font-family: 'Lobster';
+	font-weight: bold;
+	font-size: 48pt;
+	display: inline-block;
+	padding: 0;
+	margin-top: 0;
+	color: white;
+	text-decoration: none;
+	margin-bottom: 30px;
+}
+
+.primary-nav {
+	/*background-color: black;*/
+	text-align: center;
+	border-top: 2px solid rgba(255, 255, 255, .4);
+	border-bottom: 2px solid rgba(255, 255, 255, .4);
+	/*opacity: 0.4;*/
+}
+
+.primary-nav > a {
+	/*background-color: green;*/
+	display: inline-block;
+	padding: 10px;
+	margin: 0 10px;
+	text-decoration: none;
+	color: white;
+	/*opacity: 1.0;
+	filter: alpha(opacity=100);*/
+}
+
+.search-field {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 5px;
+}
+
+.main-search {
+	background: transparent;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.search-btn {
+	background-color: #F54B1B;
+	margin-top: 10px;
+	color: white;
+	border-radius: 0px;
+	font-size: 14px;
+	/*font-family: "Open Sans";*/
+	font-weight: normal;
+	padding: 4px;
+	border: 0;
+}
+
+.banner {
+	position: absolute;
+	bottom: 30px;
+	/*left: 40px;*/
+	text-align: center;
+	/*background-color: red;*/
+	width: 100%;
+}
+
+.slogan {
+	font-size: 44px;
+	margin: 0;
+}
+
+.slogan span {
+	font-weight: 800;
+}
+
+.welcome-msg {
+	font-size: 16px;
+}
+
+/******** Top tiles ***********/
+.service-boxes {
+	text-align: center;
+	background-color: #D6E1E7;
+	margin-top: 0px;
+}
+
+.service { 
+	/*float: left; */
+	display: inline-block;
+	width: 290px; 
+	/*margin-right: 66px;*/
+	background-color: white;
+	/*margin: -30px 66px auto 0*/
+	/*margin-top: -10px;*/
+	padding: 5px;
+	margin: -30px 10px 10px 10px;
+	box-shadow: 0 0 20px -5px black;
+}
+
+.service h4 {
+	margin: 5px;
+}
+
+.litter-box {
+	border-top: 3px solid red;
+	/*margin: -30px 0 auto 0;*/
+}
+
+.food-box {
+	border-top: 3px solid #82D154;
+}
+
+.sell-box {
+	border-top: 3px solid #0392CD;
+}
+ 
+.litter-box button {
+ 	border: 1px solid red;
+ 	color: red;
+ 	font-weight: normal;
+ }
+
+.food-box button {
+ 	border: 1px solid #82D154;
+ 	color: #82D154;
+ 	font-weight: normal;
+ }
+
+.sell-box button {
+ 	border: 1px solid #0392CD;
+ 	color: #0392CD;
+ 	font-weight: normal;
+ }
+
+/******* Bottom Container *******/
+.primary-content {
+	background-color: #D6E1E7;
+	padding: 10px;
+}
+
+.primary-content > div {
+	background-color: white;
+	/*text-align: center;*/
+	/*margin-top: -10px;*/
+	margin-bottom: 10px;
+}
+
+.primary-content .bottom-container .primary-aside {
+	float: left;
+	width: 400px;
+	background-color: white;
+	min-height: 300px;
+}
+
+.main {
+	background-color: white;
+	margin-left: 360px;
+}
+
+.bottom-container {
+	box-shadow: 0 0 20px -5px black;
+}
+
+
+/****************************************
+  Components
+*****************************************/
+
+/******** Aside-bottom ********/
+.primary-aside > div {
+	background-color: #E7F3F9;
+	margin: 10px;
+	overflow: hidden;
+}
+
+.primary-aside > div > img {
+	float: left;
+	height: 80px;
+	width: 80px;
+}
+
+.primary-aside > div > p {
+	margin: 0;
+	background-color: #E7F3F9;
+	/*padding-left: 5px;*/
+	margin-left: 90px;
+}
+
+.aside-title {
+	color: #0392CD;
+}
+
+/****** Puppy Tiles *********/
+.tiles-main {
+	display: inline-block;
+	margin: 10px;
+	width: 160px;
+	background-color: yellow;
+	vertical-align: top;
+}
+
+.tiles-main > img {
+	height: 160px;
+	width: 160px;
+	margin-bottom: 0;
+	display: block;
+}
+
+.tiles-main p {
+	margin: 0;
+	background-color: #E1EFD8;
+	color: #396721;
+}
+
+.tiles-main .dog-name {
+	border-bottom: 1px solid black;
+	/*font-weight: bold;*/
+	background-color: #82D154;
+	margin-top: 0px;
+	padding-left: 5px;
+	color: #396721;
+}
